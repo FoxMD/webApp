@@ -10,11 +10,11 @@ ASSETS_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/Test")
 def hello():
     return "Under construction"
 
-@app.route("/Test")
+@app.route("/")
 def test():
     return render_template("under_construction.html")
 
