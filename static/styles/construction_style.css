@@ -23,7 +23,7 @@ body
 {
     color: #fff;
     font-size: 4em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-weight: 600;
 }
 .circle .container
@@ -46,8 +46,8 @@ body
 .AnimatedCircle .loader
 {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     animation: animate 5s linear infinite;
 }
@@ -71,10 +71,10 @@ body
     width: 50%;
     height: 100%;
     background: linear-gradient(to top, transparent, rgba(119, 35, 255, 0.87),rgba(0, 255, 242, 0.685),rgba(153, 0, 255, 0.2));
-    background-size: 200px 360px;
+    background-size: 100px 180px;
     background-repeat: no-repeat;
-    border-top-left-radius: 200px;
-    border-bottom-left-radius: 200px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 .AnimatedCircle .loader:after
 {
@@ -99,8 +99,7 @@ body
                 0 0 90px #a200ff,
                 0 0 100px #a200ff,
                 0 0 110px #a200ff,
-                0 0 120px #a200ff,
-                0 0 230px #a200ff;
+                0 0 120px #a200ff;
 }
 .AnimatedCircle .loader span
 {
@@ -115,8 +114,8 @@ body
 .fox
 {
     position: absolute;
-    width: 375px;
-    height: 375px;
+    width: 188px;
+    height: 188px;
     background: url(fox.jpg);
     border-radius: 60%;
     background-size: cover;
