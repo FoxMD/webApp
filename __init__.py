@@ -21,4 +21,4 @@ def test():
 if __name__ == "__main__":
     context = ('/home/embedded-fox.crt', '/home/embedded-fox.key')
     app.run(debug=False, ssl_context=context)
-#    app.run()
+
